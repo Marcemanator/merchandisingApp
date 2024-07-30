@@ -36,7 +36,7 @@ public class conectar {
 
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            con = DriverManager.getConnection("jdbc:mysql://qaiw565.marceweb.eu:3306/qaiw565?serverTimezone=UTC", "qaiw565", "Anabruc78");
+            con = DriverManager.getConnection("jdbc:mysql://**************:3306/******?serverTimezone=UTC", "****", "****");
             con.setAutoCommit(false);
         } catch (ClassNotFoundException ex) {
             Logger.getLogger(conectar.class.getName()).log(Level.SEVERE, "No se ha podido cargar el driver de la base de datos", ex);
