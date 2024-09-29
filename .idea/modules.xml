@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/javamail-1.4.7/javamail-1.4.7.iml" filepath="$PROJECT_DIR$/javamail-1.4.7/javamail-1.4.7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/merchandisingApp.iml" filepath="$PROJECT_DIR$/merchandisingApp.iml" />
+    </modules>
+  </component>
+</project>
