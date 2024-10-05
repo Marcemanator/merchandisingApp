@@ -136,7 +136,7 @@ public class mail {
             Email email = new SimpleEmail();
             email.setHostName("smtp.marceweb.es");
             email.setSmtpPort(465);
-            email.setAuthenticator(new DefaultAuthenticator("marce@marceweb.es", "Marcemanator2011"));
+            email.setAuthenticator(new DefaultAuthenticator("marce@marceweb.es", SECRETS));
             email.setSSLOnConnect(true);
             email.setCharset("UTF-8");
             email.setFrom("marce@marceweb.es");
