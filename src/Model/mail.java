@@ -164,7 +164,7 @@ public class mail {
             Adjunto.setDescription("control de cambios");
 
             MultiPartEmail mail = new MultiPartEmail();
-            mail.setAuthenticator(new DefaultAuthenticator("marce@marceweb.es", "Marcemanator2011"));
+            mail.setAuthenticator(new DefaultAuthenticator("marce@marceweb.es", SECRETS));
             mail.setHostName("smtp.serviciodecorreo.es");
             mail.setSmtpPort(465);
             mail.setSSLOnConnect(true);
